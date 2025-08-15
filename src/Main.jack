@@ -1,0 +1,15 @@
+/** Handles game initialization and the main game loop. */
+class Main {
+    function void main() {
+        // Declare and initialize game variables and objects.
+        // (e.g., Snake, Food, Board)
+
+        // Main game loop
+        while (true) {
+            // 1. Read user input from the keyboard.
+            // 2. Update game state (move snake, check for food).
+            // 3. Redraw the screen.
+        }
+        return;
+    }
+}

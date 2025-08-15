@@ -1,0 +1,28 @@
+/** Represents the food. */
+class Food {
+    // Fields for the food's position (x, y).
+
+    /** Constructs a new Food object. */
+    constructor Food new() {
+        // Initialize food's position (likely random).
+        return this;
+    }
+
+    /** Deallocates the food's memory. */
+    method void dispose() {
+        // Memory.deAlloc(this);
+        return;
+    }
+
+    /** Repositions the food to a new random location. */
+    method void reposition() {
+        // Find a new random x, y.
+        return;
+    }
+
+    /** Draws the food on the screen. */
+    method void draw() {
+        // Use Screen.drawPixel or Screen.drawRectangle/Circle.
+        return;
+    }
+}
