@@ -1,4 +1,3 @@
-/** Represents the game board or playing area. */
 class Board {
     // Fields for board dimensions or boundaries.
 

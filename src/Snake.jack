@@ -1,4 +1,3 @@
-/** Represents the snake. */
 class Snake {
     // Fields to store the snake's position, size, and direction.
 

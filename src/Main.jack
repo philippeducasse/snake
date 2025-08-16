@@ -1,4 +1,3 @@
-/** Handles game initialization and the main game loop. */
 class Main {
     function void main() {
         // Declare and initialize game variables and objects.

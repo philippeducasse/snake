@@ -1,4 +1,3 @@
-/** Represents the food. */
 class Food {
     // Fields for the food's position (x, y).
 
