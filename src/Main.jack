@@ -11,4 +11,8 @@ class Main {
         }
         return;
     }
+
+    function void listen() {
+
+    }
 }

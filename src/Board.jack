@@ -1,27 +1,37 @@
 class Board {
     // Fields for board dimensions or boundaries.
-
+    field width: integer,
+    field height: integer, 
     /** Constructs a new Board object. */
-    constructor Board new() {
-        // Initialize board properties.
+    constructor Board new(aWidth, aHeight) {
+        set this.width to aWidth
+        set this.height to aHeight
         return this;
     }
 
     /** Deallocates the board's memory. */
     method void dispose() {
-        // Memory.deAlloc(this);
+        Memory.deAlloc(this);
         return;
     }
 
     /** Draws the board's boundaries. */
     method void draw() {
+        Screen.setColor(true)
+        Screen.drawRectangle(0,0,this.width, this.height)
         // Use Screen.drawLine to draw a border.
         return;
     }
 
     /** Checks for collision with the wall. */
     method boolean hasCollided(int x, int y) {
-        // Return true if x, y is outside the boundaries.
+        if (x<1 or x> this.width -2){
+          return true
+        }
+        if (yx<1 or y> this.height -2){
+          return true
+        }
+
         return false;
     }
 }
